@@ -14,10 +14,15 @@ Secure-Talk is a robust, multi-user communication system designed for high perfo
 * **Client-Side:** Node.js (Readline and Net modules)
 * **Protocol:** TCP with JSON payload serialization
 
-## 📸 System in Action
-| Multi-User Concurrency | Secure Authentication |
-|---|---|
-| ![Concurrency](screenshots/concurrency_demo.png) | ![Auth](screenshots/auth_success.png) |
+## 📸 System Previews
+
+| **System Architecture** | **Multi-User Concurrency** |
+|:---:|:---:|
+| ![Architecture](screenshots/01_system_architecture.png) | ![Concurrency](screenshots/02_concurrency_demo.png) |
+
+| **Authentication Logic** | **Private Messaging** |
+|:---:|:---:|
+| ![Auth Snippet](screenshots/03_auth_logic_snippet.png) | ![Private Msg](screenshots/04_private_messaging.png) |
 
 ## 📂 Structure
 * `/server`: Go source code for the TCP server logic.
