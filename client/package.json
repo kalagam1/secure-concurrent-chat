@@ -1,0 +1,8 @@
+{
+  "name": "secure-chat-client",
+  "version": "1.0.0",
+  "description": "Node.js client for secure TCP chat",
+  "main": "chatclient.js",
+  "dependencies": {},
+  "author": "Mahitha Kalaga"
+}
