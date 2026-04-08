@@ -3,6 +3,13 @@
 ## 📌 Overview
 Secure-Talk is a robust, multi-user communication system designed for high performance and secure message handling. It features a backend server built in **Go** to handle massive concurrency and an interactive **Node.js** client for a seamless user experience.
 
+## 🛡️ Security Impact & Outcomes
+Focus: Resilience & Protocol Integrity
+Outcome:
+* Improved System Availability and Uptime by utilizing Go’s concurrency model (Goroutines) to prevent server crashes under high-traffic, multi-user loads.
+* Prevented Unauthorized Interception of communication by designing a custom JSON-handshake protocol that rejects unauthenticated TCP connections.
+*  Optimized Resource Efficiency, allowing the server to handle hundreds of concurrent clients with minimal CPU and memory overhead compared to traditional threading.
+
 ## ⚡ Technical Highlights
 * **Go Concurrency:** Utilizes **Goroutines** and **Channels** to handle hundreds of simultaneous TCP connections with minimal memory overhead.
 * **Custom JSON Protocol:** Designed a structured communication protocol to handle `LOGIN`, `PUBLIC`, `PRIVATE`, and `USERLIST` message types.
